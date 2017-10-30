@@ -1,0 +1,8 @@
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\CollectionsPractice\bin\Debug\netcoreapp1.1\CollectionsPractice.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\CollectionsPractice\bin\Debug\netcoreapp1.1\CollectionsPractice.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\CollectionsPractice\bin\Debug\netcoreapp1.1\CollectionsPractice.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\CollectionsPractice\bin\Debug\netcoreapp1.1\CollectionsPractice.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\CollectionsPractice\bin\Debug\netcoreapp1.1\CollectionsPractice.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\CollectionsPractice\obj\Debug\netcoreapp1.1\CollectionsPractice.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\CollectionsPractice\obj\Debug\netcoreapp1.1\CollectionsPractice.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\CollectionsPractice\obj\Debug\netcoreapp1.1\CollectionsPractice.pdb
