@@ -1,0 +1,8 @@
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Puzzles\bin\Debug\netcoreapp1.1\Puzzles.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Puzzles\bin\Debug\netcoreapp1.1\Puzzles.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Puzzles\bin\Debug\netcoreapp1.1\Puzzles.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Puzzles\bin\Debug\netcoreapp1.1\Puzzles.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Puzzles\bin\Debug\netcoreapp1.1\Puzzles.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Puzzles\obj\Debug\netcoreapp1.1\Puzzles.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Puzzles\obj\Debug\netcoreapp1.1\Puzzles.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Puzzles\obj\Debug\netcoreapp1.1\Puzzles.pdb

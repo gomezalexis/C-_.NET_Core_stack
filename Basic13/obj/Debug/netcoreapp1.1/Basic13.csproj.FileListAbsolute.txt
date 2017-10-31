@@ -1,0 +1,8 @@
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Basic13\bin\Debug\netcoreapp1.1\Basic13.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Basic13\bin\Debug\netcoreapp1.1\Basic13.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Basic13\bin\Debug\netcoreapp1.1\Basic13.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Basic13\bin\Debug\netcoreapp1.1\Basic13.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Basic13\bin\Debug\netcoreapp1.1\Basic13.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Basic13\obj\Debug\netcoreapp1.1\Basic13.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Basic13\obj\Debug\netcoreapp1.1\Basic13.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Basic13\obj\Debug\netcoreapp1.1\Basic13.pdb
