@@ -1,0 +1,8 @@
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\NinjaWizardSamurai\bin\Debug\netcoreapp1.1\NinjaWizardSamurai.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\NinjaWizardSamurai\bin\Debug\netcoreapp1.1\NinjaWizardSamurai.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\NinjaWizardSamurai\bin\Debug\netcoreapp1.1\NinjaWizardSamurai.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\NinjaWizardSamurai\bin\Debug\netcoreapp1.1\NinjaWizardSamurai.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\NinjaWizardSamurai\bin\Debug\netcoreapp1.1\NinjaWizardSamurai.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\NinjaWizardSamurai\obj\Debug\netcoreapp1.1\NinjaWizardSamurai.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\NinjaWizardSamurai\obj\Debug\netcoreapp1.1\NinjaWizardSamurai.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\NinjaWizardSamurai\obj\Debug\netcoreapp1.1\NinjaWizardSamurai.pdb

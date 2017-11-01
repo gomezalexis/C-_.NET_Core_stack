@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\Human\\Human.csproj",
-      "projectName": "Human",
-      "projectPath": "c:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\Human\\Human.csproj",
-      "outputPath": "c:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\Human\\obj\\",
+      "projectUniqueName": "C:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\NinjaWizardSamurai\\NinjaWizardSamurai.csproj",
+      "projectName": "NinjaWizardSamurai",
+      "projectPath": "C:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\NinjaWizardSamurai\\NinjaWizardSamurai.csproj",
+      "outputPath": "C:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\NinjaWizardSamurai\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Human.dll": "c:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\Human\\bin\\placeholder\\netcoreapp1.1\\Human.dll"
+        "lib/netcoreapp1.1/NinjaWizardSamurai.dll": "C:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\NinjaWizardSamurai\\bin\\placeholder\\netcoreapp1.1\\NinjaWizardSamurai.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

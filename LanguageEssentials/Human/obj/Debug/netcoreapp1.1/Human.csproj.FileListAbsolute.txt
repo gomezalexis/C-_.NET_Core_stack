@@ -6,3 +6,11 @@ C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Human\bin\Debug\netcoreapp1
 C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Human\obj\Debug\netcoreapp1.1\Human.AssemblyInfo.cs
 C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Human\obj\Debug\netcoreapp1.1\Human.dll
 C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\Human\obj\Debug\netcoreapp1.1\Human.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\Human\bin\Debug\netcoreapp1.1\Human.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\Human\bin\Debug\netcoreapp1.1\Human.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\Human\bin\Debug\netcoreapp1.1\Human.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\Human\bin\Debug\netcoreapp1.1\Human.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\Human\bin\Debug\netcoreapp1.1\Human.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\Human\obj\Debug\netcoreapp1.1\Human.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\Human\obj\Debug\netcoreapp1.1\Human.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\Human\obj\Debug\netcoreapp1.1\Human.pdb

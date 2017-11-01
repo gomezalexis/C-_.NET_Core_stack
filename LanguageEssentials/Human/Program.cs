@@ -1,6 +1,5 @@
 ﻿using System;
-
-
+using Human;
 namespace Human
 {
     class Program

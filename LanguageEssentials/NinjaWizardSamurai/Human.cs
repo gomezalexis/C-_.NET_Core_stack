@@ -1,5 +1,5 @@
 using System;
-namespace Human{
+namespace NinjaWizardSamurai{
     public class Human{
         public string name;
         public int strength = 3;
@@ -26,7 +26,7 @@ namespace Human{
 
         public void attack(Human human){
             human._health -= (this.strength * 3);
-            System.Console.WriteLine("The strength of {0} now is {1}", human.name, human._health);
+            System.Console.WriteLine("The health of {0} now is {1}", human.name, human._health);
         }
         
     }
