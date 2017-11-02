@@ -1,0 +1,10 @@
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\obj\Debug\netcoreapp2.0\CallingCard.csproj.CoreCompileInputs.cache
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\obj\Debug\netcoreapp2.0\CallingCard.AssemblyInfoInputs.cache
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\obj\Debug\netcoreapp2.0\CallingCard.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\bin\Debug\netcoreapp2.0\CallingCard.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\bin\Debug\netcoreapp2.0\CallingCard.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\bin\Debug\netcoreapp2.0\CallingCard.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\bin\Debug\netcoreapp2.0\CallingCard.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\bin\Debug\netcoreapp2.0\CallingCard.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\obj\Debug\netcoreapp2.0\CallingCard.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\CallingCard\obj\Debug\netcoreapp2.0\CallingCard.pdb
