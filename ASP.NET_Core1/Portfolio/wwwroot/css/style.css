@@ -1,0 +1,46 @@
+#top_nav{
+    background-color: #ac1a2f;
+    padding: 6px;
+}
+
+h1{
+    color: #ffd303
+}
+
+.topLinks{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.menu_links{
+    color: whitesmoke;
+}
+
+#first_of{
+    display: inline-block;
+    border: 3px dashed orangered;
+    margin: 10px;
+    vertical-align: top;
+    padding: 5px;
+    /* background-color: lightpink; */
+
+}
+
+#picture_area{
+    border: 6px dashed greenyellow;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#the_pic{
+    width: 209px;
+}
+
+form{
+    margin: 5px;
+}
+
+#project_list{
+    background-color: pink;
+}

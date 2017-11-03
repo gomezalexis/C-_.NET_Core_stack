@@ -1,0 +1,10 @@
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.csproj.CoreCompileInputs.cache
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.AssemblyInfoInputs.cache
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.pdb
