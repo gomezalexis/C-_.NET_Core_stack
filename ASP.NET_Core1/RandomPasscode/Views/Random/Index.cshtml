@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Passcode</title>
+</head>
+<body>
+    <h2>Random Passcode (passcode #@ViewBag.theNumber)</h2>
+    <h4>@ViewBag.thePasscode</h4>
+    <form action="increase" method="post">
+        <button type="submit">Change Passcode</button>
+    </form>
+</body>
+</html>

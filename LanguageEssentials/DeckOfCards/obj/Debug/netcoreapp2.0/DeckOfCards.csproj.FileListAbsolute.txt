@@ -1,0 +1,10 @@
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\obj\Debug\netcoreapp2.0\DeckOfCards.csproj.CoreCompileInputs.cache
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\obj\Debug\netcoreapp2.0\DeckOfCards.AssemblyInfoInputs.cache
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\obj\Debug\netcoreapp2.0\DeckOfCards.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\bin\Debug\netcoreapp2.0\DeckOfCards.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\bin\Debug\netcoreapp2.0\DeckOfCards.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\bin\Debug\netcoreapp2.0\DeckOfCards.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\bin\Debug\netcoreapp2.0\DeckOfCards.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\bin\Debug\netcoreapp2.0\DeckOfCards.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\obj\Debug\netcoreapp2.0\DeckOfCards.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\LanguageEssentials\DeckOfCards\obj\Debug\netcoreapp2.0\DeckOfCards.pdb

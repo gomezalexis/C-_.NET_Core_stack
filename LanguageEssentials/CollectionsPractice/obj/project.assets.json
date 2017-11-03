@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "Libuv/1.9.1": {
@@ -7042,21 +7042,31 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\CollectionsPractice\\CollectionsPractice.csproj",
+      "projectUniqueName": "c:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\CollectionsPractice\\CollectionsPractice.csproj",
       "projectName": "CollectionsPractice",
-      "projectPath": "C:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\CollectionsPractice\\CollectionsPractice.csproj",
-      "outputPath": "C:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\CollectionsPractice\\obj\\",
+      "projectPath": "c:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\CollectionsPractice\\CollectionsPractice.csproj",
+      "packagesPath": "C:\\Users\\gomez\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\LanguageEssentials\\CollectionsPractice\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gomez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
-      "files": {
-        "lib/netcoreapp1.1/CollectionsPractice.dll": "C:\\Users\\gomez\\Desktop\\CodingDojo\\C#_.NET_Core_stack\\CollectionsPractice\\bin\\placeholder\\netcoreapp1.1\\CollectionsPractice.dll"
+      "sources": {
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
@@ -7064,7 +7074,8 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.1.2"
+            "version": "1.1.2",
+            "autoReferenced": true
           }
         }
       }
