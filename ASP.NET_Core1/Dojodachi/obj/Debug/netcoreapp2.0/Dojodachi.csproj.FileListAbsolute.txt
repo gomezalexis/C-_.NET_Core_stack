@@ -1,0 +1,10 @@
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\bin\Debug\netcoreapp2.0\Dojodachi.deps.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\bin\Debug\netcoreapp2.0\Dojodachi.runtimeconfig.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\bin\Debug\netcoreapp2.0\Dojodachi.runtimeconfig.dev.json
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\bin\Debug\netcoreapp2.0\Dojodachi.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\bin\Debug\netcoreapp2.0\Dojodachi.pdb
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\obj\Debug\netcoreapp2.0\Dojodachi.csproj.CoreCompileInputs.cache
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\obj\Debug\netcoreapp2.0\Dojodachi.AssemblyInfoInputs.cache
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\obj\Debug\netcoreapp2.0\Dojodachi.AssemblyInfo.cs
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\obj\Debug\netcoreapp2.0\Dojodachi.dll
+C:\Users\gomez\Desktop\CodingDojo\C#_.NET_Core_stack\ASP.NET_Core1\Dojodachi\obj\Debug\netcoreapp2.0\Dojodachi.pdb
