@@ -1,0 +1,12 @@
+<h2>Here are the awesome quotes!</h2>
+
+@foreach(var quote in @ViewBag.allQuotes)
+{
+    <div class="aQuote">
+        <p>- @quote["quote"] -</p>
+        <p>User: <b>@quote["author"]</b></p>
+        <p>Created: @quote["created_at"]</p>
+    </div>
+}
+
+<a href="/">Go to Add Quote</a>

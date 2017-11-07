@@ -1,0 +1,9 @@
+/*Write all of your CSS here*/
+#top_nav{
+    background-color: rgb(233, 169, 169);
+    padding: 20px;
+}
+
+.aQuote{
+    border-bottom: 2px solid black;
+}
