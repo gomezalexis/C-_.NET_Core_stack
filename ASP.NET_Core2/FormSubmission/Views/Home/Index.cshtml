@@ -1,0 +1,33 @@
+
+
+
+    <h2>Enter your information:</h2>
+    <form action="adduser" method="post">
+        First Name: <input type="text" name="FirstName"><br><br>
+        Last Name: <input type="text" name="LastName"><br><br>
+        Age: <input type="number" name="Age"><br><br>
+        Email Address: <input type="text" name="Email"><br><br>
+        Password: <input type="password" name="Password"><br><br>
+        <button type="submit">Submit</button>
+
+    </form>
+    <div>
+        
+            @if(ViewBag.errors != null)
+            {
+                @foreach(var err in @ViewBag.errors)
+                {
+                    <p class="bad">@err</p>
+                }
+            }
+            
+            @if(ViewBag.success != null)
+            {
+                @foreach(var yeah in @ViewBag.success)
+                {
+                    <p class="success">@yeah</p>
+                }
+            }
+        
+    </div>
+       

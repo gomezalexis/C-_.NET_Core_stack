@@ -1,0 +1,16 @@
+/*Write all of your CSS here*/
+#top_nav{
+    background-color: rgb(182, 233, 169);
+    padding: 20px;
+}
+
+.bad{
+    background-color: red;
+    color: wheat;
+}
+
+.success{
+    background-color: green;
+    color: wheat;
+    font-size: 16px;
+}
