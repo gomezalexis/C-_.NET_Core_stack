@@ -1,0 +1,41 @@
+@model LoginRegistration.Models.User
+<div id="register">
+    <h2>Register:</h2>
+    <div asp-validation-summary="All"></div>
+    <form asp-controller="Home" asp-action="register" method="post">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName"/><br><br>
+
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName"/><br><br>
+
+        <label asp-for="Email"></label>
+        <input asp-for="Email"/><br><br>
+
+        <label asp-for="Password"></label>
+        <input asp-for="Password"/><br><br>
+
+        <label asp-for="PasswordConfirm"></label>
+        <input asp-for="PasswordConfirm"/><br><br>
+
+        <button type="submit">Create new User</button>
+    </form>
+</div>
+<div id="login">
+    <h2>Login: </h2>
+    <div>
+        @if(ViewBag.errors != null)
+            {
+                @foreach(var err in @ViewBag.errors)
+                {
+                    <p class="bad">@err</p>
+                }
+            }
+    </div>
+    <form action="login" method="post">
+        Email: <input type="text" name="Email"><br><br>
+        Password: <input type="password" name="Password"><br><br>
+
+        <button type="submit">Log In</button>
+    </form>
+</div>

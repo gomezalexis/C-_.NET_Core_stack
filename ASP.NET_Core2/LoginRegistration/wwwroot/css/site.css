@@ -1,0 +1,34 @@
+#top_nav{
+    background-color: rgb(233, 213, 169);
+    padding: 20px;
+}
+
+#register{
+    border: 2px dashed darkblue;
+    padding: 5px;
+    width: 388px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+#login{
+    border: 2px dashed orangered;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    width: 350px;
+    margin: 5px;
+}
+
+.bad{
+    color: red;
+}
+
+.aUser{
+    display: inline-block;
+    vertical-align: top;
+    border: 6px dashed darkred;
+    padding: 3px;
+    margin: 5px;
+}
