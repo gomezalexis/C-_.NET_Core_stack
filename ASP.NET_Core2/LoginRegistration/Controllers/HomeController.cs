@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using LoginRegistration.Models;
+using Newtonsoft.Json;
+
 
 namespace LoginRegistration.Controllers
 {
@@ -13,6 +15,7 @@ namespace LoginRegistration.Controllers
         public HomeController(DbConnector connect)
         {
             _dbConnector = connect;
+
         }
 
         // GET: /Home/
@@ -36,17 +39,21 @@ namespace LoginRegistration.Controllers
 
             if(TryValidateModel(theLoger))
             {
-                string query = $"SELECT email, password FROM users WHERE email = '{theLoger.Email}'";
+                string query = $"SELECT email, password, firstname FROM users WHERE email = '{theLoger.Email}'";
                 var theUser = _dbConnector.Query(query);
                 if(theUser.Count == 0){
+                    //veryfing if email is in database
                     string[] message = {"Email not in database"};
                     TempData["Error"] = message;
                     return RedirectToAction("Index");
+                    //if email exists in database veryfing if password is correct
                 } else if(Password != (string)theUser[0]["password"]){
                     string[] message = {"Password didn't match"};
                     TempData["Error"] = message;
                     return RedirectToAction("Index");
                 } else{
+                    // Setting the session as an Json String to desirialize it later
+                    SessionExtensions.SetObjectAsJson(HttpContext.Session,"UserSession", theUser[0]);
                     return RedirectToAction("Welcome");
                 }
             } else{
@@ -70,6 +77,10 @@ namespace LoginRegistration.Controllers
                 string query = $"INSERT INTO users (firstname, lastname, email, password, created_at) " 
                 + $"VALUES ('{user.FirstName}', '{user.LastName}', '{user.Email}', '{user.Password}', NOW())";
                 _dbConnector.Execute(query);
+                //Bring the user back from database to use in session
+                string query2 = $"SELECT email, password, firstname FROM users WHERE email = '{user.Email}'";
+                var theUser = _dbConnector.Query(query2);
+                SessionExtensions.SetObjectAsJson(HttpContext.Session,"UserSession", theUser[0]);
                 return RedirectToAction("Welcome");
             }
             return View("Index",user);
@@ -78,8 +89,14 @@ namespace LoginRegistration.Controllers
         [HttpGet]
         [Route("welcome")]
         public IActionResult Welcome(){
-            string query = "SELECT * FROM users ORDER BY created_at DESC";
+            // Attaching all the properties of the query to an Object of User
+            User theUser = SessionExtensions.GetObjectFromJson<User>(HttpContext.Session,"UserSession");
+            // Querying for all the users except the on in session
+            string query = $"SELECT * FROM users WHERE NOT email = '{theUser.Email}' ORDER BY created_at DESC";
             var AllUsers = _dbConnector.Query(query);
+            // string theUser = HttpContext.Session.GetString("UserSession");
+            
+            ViewBag.theUser = theUser;
             ViewBag.allUsers = AllUsers;
             return View();
         }
@@ -91,6 +108,13 @@ namespace LoginRegistration.Controllers
             string query = $"DELETE FROM users WHERE email = '{Email}'";
             _dbConnector.Query(query);
             return RedirectToAction("Welcome");
+        }
+
+        [HttpGet]
+        [Route("logout")]
+        public IActionResult Logout(){
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index");
         }
 
     }

@@ -5,12 +5,14 @@ namespace LoginRegistration.Models{
 
         [Required]
         [MinLength(2)]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Name can only contain letters")]
         [Display(Name = "First Name")]
         public string FirstName {get; set;}
 
         [Required]
         [MinLength(2)]
         [Display(Name = "Last Name")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Name can only contain letters")]
         public string LastName {get; set;}
 
         [Required]

@@ -1,5 +1,6 @@
-<h2>Welcome:</h2>
 
+<h2>Welcome @ViewBag.theUser.FirstName:</h2>
+<p>@ViewBag.theUser.Email <a href="logout"><button>LogOut</button></a></p>
 @foreach(var user in @ViewBag.allUsers)
 {
     <div class="aUser">
