@@ -1,0 +1,59 @@
+
+<h2 id="userArea">Welcome @ViewBag.theUser.FirstName: @ViewBag.theUser.id <a href="logout"><button>LogOut</button></a></h2>
+
+<div id="addMessageArea">
+    <h2>Post a Message:</h2>
+    <div>
+        @if(ViewBag.messageError != null)
+            {
+                @foreach(var err in @ViewBag.messageError)
+                {
+                    <p class="bad">@err</p>
+                }
+            }
+        
+    </div>
+    <form action="addmessage" method="post">
+        <label>Write Message</label><br>
+        <textarea name="Message"></textarea><br>
+
+        <button type="submit">Add Message</button>
+    </form>
+</div>
+@foreach(var mess in @ViewBag.allMessages)
+{
+    <div class="aMessage">
+        <h3>@mess["fullname"]</h3>
+        <h4>@mess["created_at"]</h4>
+        <p><b>Message: </b>@mess["message"]</p>
+        @if(@mess["comments"].Count > 0)
+        {
+            <div class="commentsarea">
+            <h4><b>Comments:</b></h4>
+                @foreach(var comm in @mess["comments"])
+                {
+                    <p><b>@comm["fullname"]</b> commented:</p>
+                    <p>@comm["comment"]</p>
+                    <p>@comm["created_at"]</p>
+
+                <hr>
+                }
+            </div>  
+        }
+        <form action="addcomment/@mess["id"]" method="post">
+            <label>Write Comment</label><br>
+            <textarea name="Comment"></textarea><br>
+
+            <button type="submit">Add Comment</button>
+        </form>
+        @if(ViewBag.commentError != null)
+            {
+                @foreach(var err in @ViewBag.commentError)
+                {
+                    <p class="bad">@err</p>
+                }
+            }
+        <hr>
+    </div>
+
+}

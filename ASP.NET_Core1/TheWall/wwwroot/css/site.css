@@ -1,0 +1,47 @@
+/*Write all of your CSS here*/
+#top_nav{
+    background-color: rgb(105, 74, 6);
+    color: whitesmoke;
+    padding: 20px;
+}
+
+#register{
+    border: 2px dashed darkblue;
+    background-color: rgb(133, 133, 145);
+    padding: 5px;
+    width: 388px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+#login{
+    border: 2px dashed orangered;
+    background-color: rgb(211, 145, 122);
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    width: 350px;
+    margin: 5px;
+}
+
+#userArea{
+    padding: 2px 10px;
+    background-color: rgb(44, 36, 36);
+    color: whitesmoke;
+}
+
+.bad{
+    color: red;
+}
+
+.commentsarea{
+    background-color: rgb(176, 184, 164);
+    margin-left: 20px;
+    padding: 1px 10px;
+}
+
+.aMessage{
+    background-color: rgb(184, 160, 194);
+    padding-left: 3px;
+}
