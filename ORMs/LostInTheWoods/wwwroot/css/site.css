@@ -1,0 +1,25 @@
+/*Write all of your CSS here*/
+#top_nav{
+    background-color: rgb(105, 6, 80);
+    color: yellow;
+    padding: 5px 15px;
+}
+
+.the_bad{
+    color: red;
+}
+
+.a_description{
+    height: 80px;
+}
+
+#nav_bar a{
+    color: rgb(182, 209, 224);
+}
+
+#details{
+    border: 3px dashed darksalmon;
+    background-color: rgb(233, 220, 216);
+    padding: 5px;
+    width: 360px;
+}

@@ -1,0 +1,19 @@
+<h2>List of all Trails</h2>
+<div id="all_trails">
+    <table>
+        <tr>
+            <th>Trail Name</th>
+            <th>Trail Length</th>
+            <th>Elevation Change</th>
+        </tr>
+        @foreach(var trail in @ViewBag.allTrails)
+        {
+            <tr>
+                <td><a href="/show/@trail.id">@trail.trailName</a></td>
+                <td>@trail.trailLength miles</td>
+                <td>@trail.elevationChange feet</td>
+            </tr>
+        }
+    </table><br>
+    <a href="/newtrail"><button>Add a new Trail</button></a>
+</div>
