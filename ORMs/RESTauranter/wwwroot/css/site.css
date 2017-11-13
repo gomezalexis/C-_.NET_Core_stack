@@ -1,0 +1,15 @@
+/*Write all of your CSS here*/
+#top_nav{
+    background-color: rgb(212, 235, 109);
+    color: rgb(17, 126, 5);
+    padding: 5px 15px;
+}
+
+.the_bad{
+    color: red;
+}
+
+.stars{
+    background-color: rgb(236, 236, 13);
+    padding: 5px;
+}
