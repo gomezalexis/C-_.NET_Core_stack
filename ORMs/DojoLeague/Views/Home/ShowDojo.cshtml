@@ -1,0 +1,34 @@
+<h1>@ViewBag.theDojo.dojoName</h1>
+<h2>Dojo Location @ViewBag.theDojo.dojoLocation</h2>
+<h3>Information - @ViewBag.theDojo.description</h3>
+<div id="tableArea">
+    <h2>Current Members</h2>
+    <table>
+        <tr>
+            <th>Ninja</th>
+            <th>Action</th>
+        </tr>
+        @foreach(var ninja in @ViewBag.allHouseNinjas)
+        {
+            <tr>
+                <td><a href="/ninja/@ninja.id">@ninja.name</a></td>
+                <td><a href="/@ninja.id/banish/@ViewBag.theDojo.id">Banish!</a></td>
+            </tr>
+        }
+    </table>
+    <h2>Rogue Ninjas</h2>
+    <table>
+        <tr>
+            <th>Ninja</th>
+            <th>Action</th>
+        </tr>
+        @foreach(var ninja in @ViewBag.allRogues)
+        {
+            <tr>
+                <td><a href="/ninja/@ninja.id">@ninja.name</a></td>
+                <td><a href="/@ninja.id/recruit/@ViewBag.theDojo.id">Recruit!</a></td>
+            </tr>
+        }
+    </table>
+    
+</div>

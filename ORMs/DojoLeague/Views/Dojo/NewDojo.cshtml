@@ -1,0 +1,33 @@
+@model DojoLeague.Models.Dojo
+<div id="registeredNinjas">
+    <h2>All Dojos</h2>
+    <table>
+        <tr>
+            <th>Dojo Name</th>
+            <th>Dojo Location</th>
+        </tr>
+        @foreach(var dojo in @ViewBag.allDojos)
+        {
+            <tr>
+                <td><a href="/dojo/@dojo.id">@dojo.dojoName</a></td>
+                <td>@dojo.dojoLocation</td>
+            </tr>
+        }
+    </table>
+</div>
+<div id="registerANinja">
+    <h2>Register a Dojo</h2>
+    <div asp-validation-summary="All" class="the_bad"></div>
+    <form asp-controller="Dojo" asp-action="adddojo" method="post">
+        <label asp-for="dojoName"></label>
+        <input asp-for="dojoName"><br><br>
+        
+        <label asp-for="dojoLocation"></label>
+        <input asp-for="dojoLocation"><br><br>
+
+        <label asp-for="description"></label><br>
+        <textarea asp-for="description" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">ADD</button>
+    </form>
+</div>
