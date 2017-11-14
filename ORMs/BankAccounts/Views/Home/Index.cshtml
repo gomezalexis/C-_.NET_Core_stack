@@ -1,0 +1,39 @@
+
+@using BankAccounts.Models
+@model UserWrapper
+
+<div asp-validation-summary="All" class="the_bad"></div>
+<div id="register">
+    <h2>Register:</h2>
+    <form asp-controller="Home" asp-action="register" method="post">
+        <label asp-for="@Model.registerVM.firstName"></label>
+        <input asp-for="@Model.registerVM.firstName"/><br><br>
+
+        <label asp-for="@Model.registerVM.lastName"></label>
+        <input asp-for="@Model.registerVM.lastName"/><br><br>
+        <p class="the_bad">@ViewBag.userError</p>
+        <label asp-for="@Model.registerVM.email"></label>
+        <input asp-for="@Model.registerVM.email"/><br><br>
+
+        <label asp-for="@Model.registerVM.password"></label>
+        <input asp-for="@Model.registerVM.password"/><br><br>
+
+        <label asp-for="@Model.registerVM.passwordConfirm"></label>
+        <input asp-for="@Model.registerVM.passwordConfirm"/><br><br>
+
+        <button type="submit">Create new User</button>
+    </form>
+</div>
+<div id="login">
+    <h2>Login: </h2>
+    
+    <form asp-controller="Home" asp-action="login" method="post">
+        <label asp-for="@Model.loginVM.loginEmail"></label>
+        <input asp-for="@Model.loginVM.loginEmail"/><br><br>
+        <p class="the_bad">@ViewBag.loginError</p>
+        <label asp-for="@Model.loginVM.loginPassword"></label>
+        <input asp-for="@Model.loginVM.loginPassword"/><br><br>
+
+        <button type="submit">Log In</button>
+    </form>
+</div>

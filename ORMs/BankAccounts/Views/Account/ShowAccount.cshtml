@@ -1,0 +1,16 @@
+@using BankAccounts.Models
+@model Transaction
+
+<h2>Welcome @ViewBag.theUser.firstName</h2>
+
+    <h3>Email: @ViewBag.theUser.email</h3>
+
+    <h2>@ViewBag.totalBalance</h2> 
+<div asp-validation-summary="All" class="the_bad"></div> 
+<form asp-controller="Account" asp-action="addtransaction" method="post">
+    <label asp-for="amount"></label>
+    <input asp-for="amount" type="number">
+
+    <button type="submit">Submit</button>
+</form>
+
