@@ -91,5 +91,12 @@ namespace BankAccounts.Controllers
             }
             return View("Index", theUser);
         }
+
+        [HttpGet]
+        [Route("logout")]
+        public IActionResult Logout(){
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index");
+        }
     }
 }

@@ -3,14 +3,31 @@
 
 <h2>Welcome @ViewBag.theUser.firstName</h2>
 
-    <h3>Email: @ViewBag.theUser.email</h3>
+<h3>Email: @ViewBag.theUser.email</h3>
+<p class="the_bad">@ViewBag.amountError</p>
 
-    <h2>@ViewBag.totalBalance</h2> 
+<h2>Current Balance: @ViewBag.totalBalance</h2> 
+
 <div asp-validation-summary="All" class="the_bad"></div> 
 <form asp-controller="Account" asp-action="addtransaction" method="post">
     <label asp-for="amount"></label>
-    <input asp-for="amount" type="number">
+    <input asp-for="amount" type="number" step="0.01">
 
     <button type="submit">Submit</button>
 </form>
+
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>Date</th>
+    </tr>
+    @foreach(var tran in @ViewBag.allTransactions)
+    {
+        <tr>
+            <td>@tran.amount</td>
+            <td>@tran.createdAt</td>
+        </tr>
+    }
+</table>
+
 

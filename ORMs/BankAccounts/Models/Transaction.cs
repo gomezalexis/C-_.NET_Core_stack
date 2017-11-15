@@ -9,7 +9,7 @@ namespace BankAccounts.Models
         public int transactionId {get; set;}
 
         [Required]
-        [Range(-10000,10000)]
+        [Range(-10000.00,10000.00)]
         [Display(Name = "Deposit/Withdraw")]
         public double amount {get; set;}
         public DateTime createdAt {get; set;}
