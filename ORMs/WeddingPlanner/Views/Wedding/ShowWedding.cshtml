@@ -1,0 +1,15 @@
+<a href="/dashboard">Dashboard</a>
+<h2>@ViewBag.theWedding.wedderOne & @ViewBag.theWedding.wedderTwo Wedding</h2>
+<h3>Date: @ViewBag.theWedding.weddingDate.Date.ToString("MMM d yyyy")</h3>
+
+<div id="userList">
+    <h3>List of Guests</h3>
+    @foreach(var guest in @ViewBag.theWedding.guests)
+    {
+        <p>@guest.user.firstName @guest.user.lastName</p>
+    }
+</div>
+<div id="addressArea">
+    <h3>Address:</h3>
+    <h4>@ViewBag.theWedding.address</h4>
+</div>

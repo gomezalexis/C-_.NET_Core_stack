@@ -1,0 +1,24 @@
+@using WeddingPlanner.Models
+@model Wedding
+<a href="/dashboard">Dashboard</a>
+<h2>Plan a Wedding @ViewBag.theUser.firstName</h2>
+<div asp-validation-summary="All" class="the_bad"></div>
+<div id="addWedding">
+    <form asp-controller="Wedding" asp-action="addwedding" method="post">
+        <label asp-for="wedderOne"></label>
+        <input asp-for="wedderOne"><br><br>
+        
+        <label asp-for="wedderTwo"></label>
+        <input asp-for="wedderTwo"><br><br>
+
+        <label asp-for="weddingDate"></label>
+        <p class="the_bad">@ViewBag.error</p>
+        <input asp-for="weddingDate" type="date"><br><br>
+
+        <label asp-for="address"></label><br>
+        <textarea asp-for="address" rows="4" cols="30"></textarea><br><br>
+
+        <button type="addwedding">Add Wedding</button>
+
+    </form>
+</div>
